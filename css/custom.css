@@ -1,0 +1,65 @@
+.add-btn{
+text-align: center;
+font-size: 2em;
+color: white;
+margin-bottom: 30px;
+}
+
+.content-area{
+border: 1px solid black;
+border-radius: 10px;
+min-height: 600px;
+z-index: 5;
+background-color: #C9F7C9;
+text-align: center;
+}
+
+.tablist{
+	padding:0;
+}
+
+.tablist li{
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-radius:5px;
+	list-style: none;
+	text-align: center;
+	position: relative;
+	right: 20px;
+	top: 10px;
+	z-index:1;
+	transition: 0.3s;
+
+}
+.tablist a{
+text-decoration: none;
+color: black;
+}
+
+.tablist li:hover
+{
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-radius:5px;
+	list-style: none;
+	text-align: center;
+	position: relative;
+	right: 20px;
+	top: 10px;
+	z-index:1;
+	height:30px;
+	background-color: #afafaf;
+	width:110%;
+	font-weight: bold;
+}
+
+.well{
+	background-color: #FFFFFF;
+	box-shadow: 0 0 10px;
+}
+
+.del-edit{
+	margin-top: 20px;
+}
